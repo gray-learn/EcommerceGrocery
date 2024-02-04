@@ -31,3 +31,7 @@ mvn clean install
 
 ## Run the application:
 mvn spring-boot:run
+
+## OUTPUT
+
+![alt text](eg-frontend/src/assets/images/preview/homepage.png?raw=true)
