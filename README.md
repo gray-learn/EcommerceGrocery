@@ -1,5 +1,13 @@
 # EcommerceGrocery
 
+## Prerequisites
+
+- Java 17
+- Maven
+- MySQL
+- Angular CLI: 9.0.7
+- Node: 16.10.0
+
 # Ecommerce Backend
 
 This project serves as the backend for an Ecommerce application, built using Spring Boot and integrated with a MySQL database. It provides RESTful APIs to interact with `Grocery` and `Supplier` entities.
@@ -10,12 +18,6 @@ This project serves as the backend for an Ecommerce application, built using Spr
 - Database integration with MySQL.
 - JPA for database interaction.
 - Lombok to reduce boilerplate code.
-
-## Prerequisites
-
-- Java 17
-- Maven
-- MySQL
 
 ## Running the Application
 
