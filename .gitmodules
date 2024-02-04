@@ -1,0 +1,3 @@
+[submodule "eg-frontend"]
+	path = eg-frontend
+	url = https://github.com/gray-learn/EcommerceGrocery.git
