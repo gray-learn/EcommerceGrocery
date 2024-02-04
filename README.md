@@ -31,18 +31,3 @@ mvn clean install
 
 ## Run the application:
 mvn spring-boot:run
-
-git submodule add https://github.com/gray-learn/EcommerceGrocery/eg-frontend
-
-https://github.com/gray-learn/EcommerceGrocery.git
-
-git rm --cached eg-frontend
-rm 'eg-frontend'
-(base)  kourui@GrayChiang-3  /Users/Gray/practice/ecommerce-project/00-production/EcommerceGrocery   main ±✚  git psh                    
-git: 'psh' is not a git command. See 'git --help'.
-
-The most similar command is
-        push
-(base)  ✘ kourui@GrayChiang-3  /Users/Gray/practice/ecommerce-project/00-production/EcommerceGrocery   main ±✚  git push
-Everything up-to-date
-(base)  kourui@GrayChiang-3  /Users/Gray/practice/ecommerce-project/00-production/EcommerceGrocery   main ±✚  git commit -m "Implement Grocery entity, add sidebar component, and apply coffee shop theme styles"
