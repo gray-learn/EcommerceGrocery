@@ -1,0 +1,21 @@
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th  class="table-success"></th>
+      <th  class="table-success">Name</th>
+      <th  class="table-success">Price</th>
+      <th  class="table-success">Units in Stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let temp of grocerys">
+      <td class="align-middle">
+        <!-- <img src="{temp.imageUrl}" height="50"/> -->
+        <img src="{temp.imageUrl}" alt="loading" height="50" />
+      </td>
+      <td class="align-middle">{{temp.name}}</td>
+      <td class="align-middle">{{temp.unitPrice | currency:'USD'}}</td>
+      <td class="align-middle">{{temp.unitsInStock}}</td>
+    </tr>
+  </tbody>
+</table>

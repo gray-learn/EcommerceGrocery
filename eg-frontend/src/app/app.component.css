@@ -1,0 +1,112 @@
+:root {
+  --brown-dark: #4E342E; /* Dark brown, good for text and important elements */
+  --brown-medium: #795548; /* Medium brown, good for backgrounds */
+  --brown-light: #A1887F; /* Light brown, good for hover states or accents */
+  --green-accent: #1E3932; /* Starbucks green, for accents and branding */
+  --cream: #FFF8E1; /* Off-white, for background */
+}
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--brown-dark);
+  background-color: var(--cream);
+}
+
+a {
+  color: var(--green-accent);
+  text-decoration: none; /* Removes underlines from links */
+}
+
+a:hover {
+  color: var(--brown-dark);
+}
+
+/* Scrollbar Styles (if you have custom scrollbar) */
+.js-scrollbar1 {
+  scrollbar-color: var(--brown-medium) var(--cream);
+  scrollbar-width: thin;
+}
+.menu-sidebar {
+  background-color: var(--brown-medium);
+  color: var(--cream);
+}
+
+.menu-sidebar .logo a {
+  display: block;
+  padding: 20px;
+  background-color: var(--green-accent); /* Starbucks green for logo background */
+}
+
+.navbar-sidebar {
+  padding: 20px;
+}
+
+.navbar-list li {
+  padding: 10px 0;
+}
+
+.navbar-list li a {
+  color: var(--cream);
+  transition: color 0.3s ease;
+}
+
+.navbar-list li a:hover {
+  color: var(--brown-light);
+}
+.header-desktop {
+  background-color: var(--green-accent);
+  color: var(--cream);
+  padding: 20px 0;
+}
+
+.form-header {
+  position: relative;
+}
+
+.au-input {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: calc(100% - 100px); /* Adjust width as per your layout */
+}
+
+.au-btn-submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: var(--brown-dark);
+  color: var(--cream);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.au-btn-submit:hover {
+  background-color: var(--brown-medium);
+}
+
+footer {
+  background-color: var(--brown-dark);
+  color: var(--cream);
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer a {
+  color: var(--cream);
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--brown-light);
+}
